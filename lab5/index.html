@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 5</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="main-header">
+        <h1>Todo list</h1>
+      </div>
+      <div class="main-body">
+        <div class="add-todo">
+          <h2>New Todo</h2>
+          <textarea id="newValue"></textarea>
+          <button class="todo-button post-button">Post todo</button>
+        </div>
+        <div class="todo-list">
+          <h2>List of todo's</h2>
+          <ul id="item-list"></ul>
+          <button class="todo-button clear-button">Clear all todo's</button>
+          <button class="todo-button mark-button">Mark all todo's</button>
+          <button class="todo-button delete-button">Delete all todo's</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="index.js"></script>
+</html>
